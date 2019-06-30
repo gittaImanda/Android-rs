@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".Activity.DaftarPasienRM">
+
+    <EditText
+        android:id="@+id/edit_RM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/wallet_highlighted_text_holo_light"
+        android:hint="Isikan nomer rekam medis"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCekProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor=" #FFFFFF"
+        android:background="@color/wallet_highlighted_text_holo_light"
+        android:text="Cek" />
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile Pasien"
+        android:textColor=" #FFFFFF"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnKonfirmasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor=" #FFFFFF"
+        android:background="@color/wallet_highlighted_text_holo_light"
+        android:text="Konfirmasi" />
+
+</LinearLayout>
